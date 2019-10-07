@@ -1,11 +1,13 @@
-/* Don't forget about this ↓ rule
-*{transition: all .1s ease-in;}*/
+* {
+    transition: all .1s ease-in;
+}
+
 * {
     -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+/*______________________________________________________________________________________________________________*/
 html {
     height: 100%;
 }
@@ -23,24 +25,30 @@ body {
     width: 1000px;
     margin: 0 auto;
 }
-
+/*______________________________________________________________________________________________________________*/
 .list {
     list-style: none;
     display: inline-block;
     vertical-align: middle;
     padding: 0;
     font-size: 0;
-    border-left: 4px solid #fff;
-    border-top: 4px solid #fff;
+    border: 2px solid #fff;
 }
 
 .list li {
     display: inline-block;
-    border-bottom: 4px solid #fff;
-    border-right: 4px solid #fff;
+    border: 2px solid #fff;
     font-size: 30px;
     text-align: center;
-    padding: 20px 15px; /*After set padding, ul was like a block-snake*/
+    padding: 20px 15px;
+}
+
+ul:hover li {
+    opacity: .3;
+}
+
+ul li:hover {
+    opacity: 1;
 }
 
 .value {
@@ -103,7 +111,6 @@ body {
     background: #666699;
     width: 100%;
 }
-
-
+/*______________________________________________________________________________________________________________*/
 
 /*How we can make the page with rule - float?*/
