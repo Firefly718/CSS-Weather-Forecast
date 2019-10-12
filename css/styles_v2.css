@@ -56,59 +56,61 @@ ul li:hover {
     opacity: 0.6;
 }
 
-.lis {
-    background: #3399cc;
+.lis, .sf {
     width: 50%;
 }
 
-.par {
-    background: #33cccc;
-    width: 25%;
-}
-
-.bel {
-    background: #996699;
-    width: 25%;
-}
-
-.mos {
-    background: #c24747;
-    width: 25%;
-}
-
-.ta {
-    background: #e2674a;
-    width: 25%;
-}
-
-.ca {
-    background: #ffcc66;
-    width: 25%;
-}
-
-.ny {
-    background: #99cc99;
-    width: 25%;
-}
-
-.nd {
-    background: #669999;
-    width: 25%;
-}
-
-.sf {
-    background: #cc6699;
-    width: 50%;
-}
-
-.tok {
-    background: #339966;
+.par, .bel, .mos, .ta, .ca, .ny, .nd, .tok {
     width: 25%;
 }
 
 .syd {
-    background: #666699;
     width: 100%;
+}
+
+.lis {
+    background: #3399cc;
+}
+
+
+.par {
+    background: #33cccc;
+}
+
+.bel {
+    background: #996699;
+}
+
+.mos {
+    background: #c24747;
+}
+
+.ta {
+    background: #e2674a;
+}
+
+.ca {
+    background: #ffcc66;
+}
+
+.ny {
+    background: #99cc99;
+}
+
+.nd {
+    background: #669999;
+}
+
+.sf {
+    background: #cc6699;
+}
+
+.tok {
+    background: #339966;
+}
+
+.syd {
+    background: #666699;
 }
 /*______________________________________________________________________________________________________________*/
 
